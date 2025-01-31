@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 7vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    margin-top: 1.7vw;
+    width: 4%;
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    bottom: 1px solid #fff;
+    color: #fff;
+    font-family: a;
+    font-size: 15px;
+}
+.bottom-page1{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    height: 40vh;
+    width: 50vw;
+    /* background-color: rebeccapurple; */
+}
+.bottom-page1>h1{
+    font-family: a;
+    font-size: 7vw;
+    font-weight: 50;
+    line-height: 1;
+    color: #fff;
+}
+.bottom-PageInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 35%;
+    width: 100%;
+    /* background-color: #ed740b; */
+    /* bottom: 0%; */
+    position: absolute;
+}
+.bottom-PageInner>button{
+padding: 15px 30px;
+border: none;
+border-radius: 50px;
+background-color: #fff;
+color: #0b48ed;
+font-weight: 200;
+font-size: 16px;
+
+}
+.bottom-PageInner>h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #fff ;
+}
+#page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column ;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(48, 48, 240);
+    color: #fff;
+}
+#page2>h3{
+    margin-bottom: 3vw;
+    margin-left: 5vw;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+#page2>h1{
+    margin-left: 5vw;
+    width: 90%;
+    font-weight: 100;
+    line-height: 1.3;
+    font-size: 4vw;
+}
+
